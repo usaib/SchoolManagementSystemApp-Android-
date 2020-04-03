@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SmartApp</string>
+    <string name="todo">TODO</string>
+    <string name="login">login</string>
+    <string name="enter_your_email_address">Enter your email address</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="login78">Login</string>
+</resources>

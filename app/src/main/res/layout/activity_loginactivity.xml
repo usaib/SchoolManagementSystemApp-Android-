@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_gradient"
+    tools:context=".loginactivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="430dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:layout_marginBottom="80dp"
+            android:src="@drawable/usa">
+
+        </ImageView>
+
+        <EditText
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/textbox"
+            android:drawableLeft="@drawable/ic_perm_identity_black_24dp"
+            android:hint="@string/enter_your_email_address"
+            android:padding="10dp"
+            android:textSize="22sp"
+
+            />
+
+        <EditText
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/textbox"
+            android:drawableLeft="@drawable/ic_lock_open_black_24dp"
+            android:hint="@string/enter_your_password"
+            android:padding="10dp"
+            android:textSize="22sp"
+
+            />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/textbox"
+            android:text="@string/login78"
+            android:textSize="22sp"/>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
